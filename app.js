@@ -19,5 +19,5 @@ cp.fork('./email/email.js');
 let port = config.port;
 
 app.listen(port,function(){
-    console.log('GeoHey Email Service is running on port ' + port);
+    console.log(' Email Service is running on port ' + port);
 });
